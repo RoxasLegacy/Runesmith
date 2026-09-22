@@ -1,0 +1,10 @@
+function CanShoveFeikris()
+    strengthMultiplier = 12
+    if HasStatus('ENLARGE', context.Source).Result then
+        strengthMultiplier = 28.2
+    end
+    if HasStatus('REDUCE', context.Source).Result then
+        strengthMultiplier = 5.1
+    end
+   return ConditionResult(context.Source.Strength * strengthMultiplier * 3 >= (GetLiftingWeight(context.Target) / 1000),{ConditionError("CanShoveWeight_False")})
+end

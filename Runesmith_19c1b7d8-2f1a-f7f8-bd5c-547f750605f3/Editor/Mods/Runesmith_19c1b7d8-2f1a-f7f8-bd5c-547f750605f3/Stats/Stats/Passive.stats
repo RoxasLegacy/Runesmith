@@ -1,0 +1,995 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object color="#FFEE82EE" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="981ae647-45a6-44cb-80d6-afe33254688a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Class Passives" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f5bd7fe-609e-4b9d-950b-c9e145fc9d0a" />
+        <field name="Name" type="NameTableFieldDefinition" value="EngravePassive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc228249gbaf2gdd02ga4ccgb5fabe6c0d17" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c4ef1a8gd9a5g58adgcfc9gb9248ef14cde" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="RunicEngrave" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f438bbc-04c2-40b8-a332-87295c92bfa0" />
+        <field name="Name" type="NameTableFieldDefinition" value="RuneReplenish" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h56db6c48g6bbcgb83fg238fg210adfb5f227" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf4c31129g2fb4ga361g621dg256084f60947" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusRemoved;OnHealed" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="StatusId('ALCH_POTION_REST_SLEEP_GREATER_RESTORATION') or StatusId('ALCH_POTION_REST_SLEEP_LESSER_RESTORATION') or StatusId('TUT_RESTORATION') or SpellId('Shout_DivineIntervention_Healing');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(RunicEngrave, 100%, 1);RestoreResource(RunicEngrave, 100%, 2);RestoreResource(RunicEngrave, 100%, 3);RestoreResource(RunicEngrave, 100%, 4);RestoreResource(RunicEngrave, 100%, 5);RestoreResource(RunicEngrave, 100%, 0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac768e1a-e09e-4e87-af60-3a238ea8f622" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rune1Rep" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5ef6d92cg3d8fgad30g50ffg997089515177" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc76be6ddga844gdf15g2d92g3bdfb0ed40ce" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCombatEnded;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(RunicEngrave, 100%, 1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aa33fac6-d247-4eb2-999c-6ec6c2483f4f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Engrave2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he5695ebagc09eg752ega92fg0c4f13555410" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc8ef9557g99ccg336fg3fcag858f45a5cd76" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="RunicEngrave" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ec336e3-5cf3-4376-8922-161961d2febe" />
+        <field name="Name" type="NameTableFieldDefinition" value="Engrave3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8f803a8ege6f4g2906gb501g11efac8a10d2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb528f4bgf756g2985g9fa5g147610986317" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="RunicEngrave" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="344fc78b-0270-4ec2-a686-d9a2c58fc014" />
+        <field name="Name" type="NameTableFieldDefinition" value="Engrave4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f683da7g2dbcg3c3dgd09agbdbb2e553fe2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0f92f5e0gc394gf39dg204dg3bb3c9588298" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="RunicEngrave" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b8a0386-b742-44e2-bde4-01404802beb9" />
+        <field name="Name" type="NameTableFieldDefinition" value="ForgedEndurance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9055999fg3640g03e9gef94gd5bae9c80701" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h14b39b08gee83gf21cg391fg9906c605e864" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_MagicAwareness" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,ConstitutionModifier);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="decf9299-29b0-4545-ab0f-6b5f05c60493" />
+        <field name="Name" type="NameTableFieldDefinition" value="RepertoireUpgrade1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfd4d7b30gd8e6g80c6g8cdfg81fc60eb3e57" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd03d3e70g4d68g9634gf105g4850a0c00392" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="tracerune" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bbd0e8a6-8a5d-48c0-a83f-522cbd5ae58d" />
+        <field name="Name" type="NameTableFieldDefinition" value="RepertoireUpgrade2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd33dd455g6c61gb3c2gcfc5g74e11876a5a9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdd3a2728g634bg8dd3g5a10g5e0a808c58c8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="tracerune" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7c0f064-edd4-47c1-b5ce-c715e669d24f" />
+        <field name="Name" type="NameTableFieldDefinition" value="RepertoireUpgrade3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd27c8a19g9c23gcd26gc81eg425f87c09479" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha46a98c7g1681g3cc5g36e8g57024e8cab57" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="tracerune" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="66592fb2-5770-4d6f-8115-eb4984129871" />
+        <field name="Name" type="NameTableFieldDefinition" value="RepertoireUpgrade4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h600dac26g20e4g88c2gb7cbg88109f2c2fe6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heb1326e0g7c28g5ea6g4452g715a9316f850" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="tracerune" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4cecf445-8fa1-4391-8773-30290682557a" />
+        <field name="Name" type="NameTableFieldDefinition" value="RepertoireUpgrade5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf6431f72gf873g69d2g126bgb03e87d7a486" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7f3476afg5d75gdbb9g2dacge82588bccc57" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="tracerune" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6427a186-b0b6-4f98-9cdd-b8a68a35bb39" />
+        <field name="Name" type="NameTableFieldDefinition" value="RepertoireUpgrade6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h90fee17bg31b5g0a7bgfcbeg9468987b4470" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb08e1f20g4ac0g2e0ag3746gb672ad9c44f3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="tracerune" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="010bf20c-485e-4f7d-ba9d-d3b784d76bb2" />
+        <field name="Name" type="NameTableFieldDefinition" value="EtchUpgrade1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f1d2f97g2abcg5642g1708g5d1cea839452" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdd4318fdg090fgb6c9gb5acg8399a4326391" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="etchrune" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="315ea98a-1d7f-4f77-b2c7-fd9d894c7ea5" />
+        <field name="Name" type="NameTableFieldDefinition" value="EtchUpgrade2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6a3fae36g5f64g161cg9bf5ge67bb446d12c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3c776094gb568gf9eeg6d77g6891d6936c72" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="etchrune" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f3a73335-4576-4866-80c5-b74e0e95c8a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnboundInvoke" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h17913ef3g7c6eg4636g97c9g72e1ca0f5fe1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9b1ca66agb55cg47f0g09d8g0205c8578854" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="etchrune" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="29890ec9-2b12-4343-af23-ae57ed28ccf2" />
+        <field name="Name" type="NameTableFieldDefinition" value="RunicOpt1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfef03cdag67ccgb9dag8b55gaab5f0bb75dd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha8678e0fgb217g13dbgdb24ga3be7fb1d9cb" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="engravingstrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="93434c0f-6c40-4f93-b93a-277c2b4aaee6" />
+        <field name="Name" type="NameTableFieldDefinition" value="RunicOpt2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6730a3e0gefe5ga936ge14ega63c69d863c2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h62f66ba4g9ef0g775ag3fa8g077b28786ea6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="engravingstrike" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFF6347" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d45781bb-8206-4d0a-b860-92429efab826" />
+        <field name="Name" type="NameTableFieldDefinition" value="Armor Passives" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db8a7a89-122b-4337-8250-1ba77a7de171" />
+        <field name="Name" type="NameTableFieldDefinition" value="RunesmithShield" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f1272a6ga17eg89b8g7c70ga4acc838580b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc5f27927gc6edgf058g5e41g3e02a7ba3e7d" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsSpell()):Disadvantage(AttackTarget);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="64ff9878-0c3c-4cef-b1a2-817a83247573" />
+        <field name="Name" type="NameTableFieldDefinition" value="SmithyElement" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd68aac70g8063g1448g87d2g5a41cb066efa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9b8a529cg6565g3c8cgd5c2gfba2469f557f" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(Fire, Flat, IntelligenceModifier);DamageReduction(Cold, Flat, IntelligenceModifier);DamageReduction(Lightning, Flat, IntelligenceModifier);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c898033-ebef-4df5-98db-1a5709b0955b" />
+        <field name="Name" type="NameTableFieldDefinition" value="SmithyInspo" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3b1398c3gc190g4c59ge58fgd4fb148808fe" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdeb83152g1c8egf4beg938dg580a03e49aa6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="RunicEngrave" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SmithyInspoCont);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69f575e1-3b61-41fd-a1a1-d29b7709836a" />
+        <field name="Name" type="NameTableFieldDefinition" value="SmithyInspo4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8e6b1fcfgf583gd71egc8e3g4c708a8e2398" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9dc8d218ga6a5g8eadgd045ga64f1d142407" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SmithyInspo_4);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a451348e-a4de-4f77-aac8-fec72aa8a276" />
+        <field name="Name" type="NameTableFieldDefinition" value="SmithyInspo7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa4b58c7g1f76g08ddg91e2g10f5b00105a0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h199ba068gdb8dgb0d2g487bgfcfafb3eb0cb" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SmithyInspo_7);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04cf946f-6f40-45ec-8142-2ca87a178d93" />
+        <field name="Name" type="NameTableFieldDefinition" value="SmithyInspo9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf2b08329g092cg0bd7gd1f2g8df5afd95789" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6af84b06g7890ge241ga734gc5897e7a2ff3" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SmithyInspo_9);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d3e24740-50b6-4e7d-980b-c39dd0bc6419" />
+        <field name="Name" type="NameTableFieldDefinition" value="SmithyInspo11" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h95c78f1bg355fg04a7gb56cgf97cb5259be7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0d47f8ffgc213ga85fg6bc5ga57defbfda47" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SmithyInspo_11);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b283aa98-89bc-4ab7-b68d-516ec15340b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="RuneInit" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hac83396ag0f49g435eg4479gd6a9ac9c1e3a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc4fbb080gfbd3gd7fag0ec1g40a7884cd6b7" version="3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('ETCHED',context.Source)):Initiative(2);IF(HasStatus('ETCHED',context.Source)):SpellSaveDC(2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dae0a302-6e11-414e-9233-acd27d494c8f" />
+        <field name="Name" type="NameTableFieldDefinition" value="RuneMelee" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2427fc34ga291g17afg0e31g75e51670cbed" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h42f14cfagebfeg6f10g1e6cgbdfa192eac3c" version="5" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsRuneDrawn(context.Source)):RollBonus(Attack,2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="846e909f-40c6-4f70-a455-57b54863e09a" />
+        <field name="Name" type="NameTableFieldDefinition" value="RuneSpeed" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc2def38g8f8ag38a5g5ec4gf1961f4c7ed0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heeba7bf4g1e09g43f2gccd9gdb1cbcc9ce96" version="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsKillingBlow();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(MovementSpeed, 100%, 0);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF90EE90" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46a459f2-85c3-4163-9e85-c4afdf09305c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spell Passives" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99fee94d-db51-4e77-8b86-a7a295318719" />
+        <field name="Name" type="NameTableFieldDefinition" value="AtrylRune" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeFire();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3, Fire, Magical);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b3758682-e6bf-4136-94b0-8e52cad3941e" />
+        <field name="Name" type="NameTableFieldDefinition" value="EsvadirRune" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(BLEEDING, 100, 3)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="48a4ca48-5e54-4b5a-a0f2-ff3ff1ab86f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="RanshuRune_Movement" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7f4a047dgcba9g10c8g5dacg1782d353262f" version="2" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnMovedDistance" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RANSHU);ApplyStatus(SELF, RANSHUDMG,100,1);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2fffffa-3bad-4d8c-adfe-b87ce9964eaa" />
+        <field name="Name" type="NameTableFieldDefinition" value="RanshuRune_SpellMovement" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21caf953-c003-47d5-8fb6-b4e27c2ad4e8" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMovementSpell()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfaaa04f2g9aaeg0b3agfe56g80c9112d207b" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RANSHU);ApplyStatus(SELF, RANSHUDMG,100,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8e09208-7698-4333-b158-388f9fa6cfb5" />
+        <field name="Name" type="NameTableFieldDefinition" value="DanteRune" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and not IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DISARM, 100, 0,,,,not SavingThrow(Ability.Strength, 14))" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90c91853-6f88-4aef-81bf-b1de455fcb61" />
+        <field name="Name" type="NameTableFieldDefinition" value="SkorulRune" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d9622da3-948a-48c4-8fe0-092369603e77" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8bf4446bg7d3egcdc5ga04fgb4c595a5b078" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsSpell();" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(MAG_THUNDER_REVERBERATION, 100, 1);ApplyStatus(MAG_THUNDER_REVERBERATION_DURATION_TECHNICAL, 100, 1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0736cee7-c6a3-43f3-ba71-25315d639fec" />
+        <field name="Name" type="NameTableFieldDefinition" value="RanshuRune_Movement4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ef7d284g7557g6fe8gf1c0g6eee0ec6bcf1" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnMovedDistance" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RANSHU4);ApplyStatus(SELF, RANSHUDMG4,100,0);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e061318-a579-421e-9b60-c6632656cd85" />
+        <field name="Name" type="NameTableFieldDefinition" value="RanshuRune_SpellMovement4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21caf953-c003-47d5-8fb6-b4e27c2ad4e8" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMovementSpell()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h31994683g90f2ga352gb8f4g0dc82bffa66a" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RANSHU4);ApplyStatus(SELF, RANSHUDMG4,100,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7a114d6-7e30-41b3-9095-40c34729d196" />
+        <field name="Name" type="NameTableFieldDefinition" value="RanshuRune_Movement7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73a21dfcg6dffgebfcgc039gce8db2df47c2" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnMovedDistance" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RANSHU7);ApplyStatus(SELF, RANSHUDMG7,100,0);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="117233af-185c-4a8c-9a7e-47dc097808b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="RanshuRune_SpellMovement7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21caf953-c003-47d5-8fb6-b4e27c2ad4e8" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMovementSpell()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9c3894f2g9201geea9g0b03g89968627c8b3" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RANSHU7);ApplyStatus(SELF, RANSHUDMG7,100,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9863424-2906-4d24-bbbf-b0873044df13" />
+        <field name="Name" type="NameTableFieldDefinition" value="RanshuRune_Movement9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a6dc0a1g0daagf359g3189ga87b752e2bbc" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnMovedDistance" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RANSHU9);ApplyStatus(SELF, RANSHUDMG9,100,0);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f1b24109-4078-40ff-a967-c450540cb3ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="RanshuRune_SpellMovement9" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21caf953-c003-47d5-8fb6-b4e27c2ad4e8" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMovementSpell()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h618643e2g0ebbg4fa1gcc86g00f0a1982326" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RANSHU9);ApplyStatus(SELF, RANSHUDMG9,100,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0526e449-9eb7-4ae8-8601-929b3c64305d" />
+        <field name="Name" type="NameTableFieldDefinition" value="RanshuRune_Movement11" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0de72d5gd77bg5d70g3a86g06c2b8843aa0" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnMovedDistance" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RANSHU11);ApplyStatus(SELF, RANSHUDMG11,100,1);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1251502f-d423-454f-959e-9592c12ce653" />
+        <field name="Name" type="NameTableFieldDefinition" value="RanshuRune_SpellMovement11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21caf953-c003-47d5-8fb6-b4e27c2ad4e8" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMovementSpell()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf3f5a68g2e87gbd85gecb1g55aa70e69959" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RANSHU11);ApplyStatus(SELF, RANSHUDMG11,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2441021-ea13-41f0-86c9-b28237c00503" />
+        <field name="Name" type="NameTableFieldDefinition" value="CruonignPassive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he915448dg040ag3722ge208g615abeebfc2d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd821110dg3660g523bg30f6g5c214ad8e0af" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and not IsMiss() and not (Tagged('UNDEAD') or Tagged('CONSTRUCT'));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(SELF,6)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="894854b9-8345-45dc-9f08-af815c512455" />
+        <field name="Name" type="NameTableFieldDefinition" value="CruonignPassivePt2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and not IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3, Necrotic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b85cf59b-89e7-4e01-9be1-8a38500c257b" />
+        <field name="Name" type="NameTableFieldDefinition" value="CruonignPassive9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h74be2e1dgc2bagc125g8464g6efee228726a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h54ace235gaed9gbebeg5678g4962de0adf7c" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and not IsMiss() and not (Tagged('UNDEAD') or Tagged('CONSTRUCT'));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(SELF,10)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b609fdd7-f5ff-4e38-9dc4-bfa3f9de19d6" />
+        <field name="Name" type="NameTableFieldDefinition" value="CruonignPassivePt29" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and not IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(5, Necrotic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="faefc3a5-6198-48c3-8964-c6ab3659bd89" />
+        <field name="Name" type="NameTableFieldDefinition" value="CruonignPassive11" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and not IsMiss() and not (Tagged('UNDEAD') or Tagged('CONSTRUCT'));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(SELF,14)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8f485247-88da-4a1f-8746-ac677c94dc8c" />
+        <field name="Name" type="NameTableFieldDefinition" value="CruonignPassivePt211" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and not IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(7, Necrotic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9615bafc-a5a0-47d7-afda-2332c90413a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="GermantriaPassive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha5392c2bgd387gc51cged23g7b7aa527f78d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb23048ag7761g8e38g70ccg75bebc6e0bb5" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="germantria" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78c8f2bf-8b27-404c-af50-56edef4e15e8" />
+        <field name="Name" type="NameTableFieldDefinition" value="GermantriaPassive9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2528abfegc62eg22c0g7c43gbf27e1da2e2c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc90086eeg9169ga162g37b9g1100be226df3" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="germantria" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88c1b0e6-99f9-46de-a28e-fab9e8937952" />
+        <field name="Name" type="NameTableFieldDefinition" value="GermantriaPassive11" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha1f21f78gd219ge4a5gcbacg1af473e0284f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6553d2ddg9279gdd4bg5fa9gfadb13eaf5ff" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="germantria" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9974df2c-6059-4463-a314-bb0453bf01e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="JurrozPassive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdbb37699g92b0g52dfg38b2g0eee01edd681" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, JURROZAC,100,5);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAttack();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="jurroz" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dcedfb37-aa68-47d3-a367-9a276b3daeeb" />
+        <field name="Name" type="NameTableFieldDefinition" value="JurrozPassive9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1b7f534dg6fb9g1bbagd79eg60837019cc82" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, JURROZAC9,100,5);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAttack();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="jurroz" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="382a5210-83d4-41ab-85a0-555789d4a55f" />
+        <field name="Name" type="NameTableFieldDefinition" value="JurrozPassive11" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8fc167dfgac33ga008g7944gc6cde72b9607" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, JURROZAC11,100,5);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAttack();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="jurroz" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f3b5be81-ef33-4ac2-81b2-5fe2ee131e64" />
+        <field name="Name" type="NameTableFieldDefinition" value="AiuenPassive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd45b79bdg7793g9b46g2442gf6fa4b5d2585" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="SpellId('Shout_Dash') or SpellId('Shout_Dash_BonusAction') or SpellId('Shout_Dash_CunningAction') or SpellId('Shout_ExpeditiousRetreat');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, AIUENSTEP, 100, 1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="aiuen" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ce17925-362f-410e-b683-e400aa6eefaf" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveFire" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6aa94c76g7004ga497g1151gda7cb6f6b8fc" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 2d8, Fire, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeFire();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bd14a08e-4b3a-4c0d-a6c3-ea73cbd4aa41" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveFire11" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 3d8, Fire, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeFire();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfb93d3c2g48dcg929dg5429gea32077555fc" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f55fae54-4ff4-4ae0-a02e-620e26725284" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveCold" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 2d8, Cold, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeCold();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb55a95c9g8ef0ga529gd271gf3989975d2f6" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d909a850-9e04-4351-9f51-fa1e0a63fd89" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveCold11" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 3d8, Cold, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeCold();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1a98f65cg5c3dg3e23g2121gb3a1bb8e4e90" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2db31e83-b6d6-4f8f-9b1d-69270d387f6f" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveAcid" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 2d8, Acid, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeAcid();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfb5f7506g023fge99eg7901g321485d71330" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16d2b845-ff2d-40c0-8461-37f1e0363f45" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveAcid11" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 3d8, Acid, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeAcid();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h14165f86gafc3g7668g4556gd15e353ab9c8" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="363c5ff2-94f7-4b56-94f9-4281306db36a" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveForce" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 2d8, Force, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeForce();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc9485ba6gbebagfaffgeca8g5f4d5ee462f1" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dd7be01e-54e2-4673-8487-eaef19e8122c" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveForce11" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 3d8, Force, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeForce();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86c2f7cag2cbagec24g2c99ge61172b9c435" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e585eb5a-8c6d-47cb-9d95-b6b84e28f1c8" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveLight" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 2d8, Lightning, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeLightning();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4706833dg106fg9866g9ba3gdde59cf59dfd" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5043ba1e-0bc6-48cc-80db-ebb9d2b8b792" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveLight11" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 3d8, Lightning, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeLightning();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he3d6d2c6gdcb2g115eg0747g2cac23538e60" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5526f717-03ec-4ab2-815b-da0f7918fce6" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveNecro" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 2d8, Necrotic, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeNecrotic();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3ee3d711g605bg4745g3de0g47b1efa47e69" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b3362fc-2119-4003-8d48-f111cd30eddb" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveNecro11" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 3d8, Necrotic, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeNecrotic();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he4563d46g412eg5225g7409g50e478e31160" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78d13b28-e316-4158-9fed-53d162cbc5c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassivePoison" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 2d8, Poison, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypePoison();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h207f428eg7593gcfedg0fd1g84bf3a4fb2f5" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e3d7c615-0e36-4a53-8070-5b035926af1f" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassivePoison11" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 3d8, Poison, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypePoison();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h65da340ag166fg2c29g3d16ga23eed115a6b" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fef01229-69ce-4949-b7cb-04ee0aba4c6b" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassivePsy" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 2d8, Psychic, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypePsychic();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0e73ebcg7e6fg82b1g6611g3759a1e8d9c7" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7719a95b-83bc-44f3-826e-6aa0aba7858b" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassivePsy11" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 3d8, Psychic, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypePsychic();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h99277771g29acg208fg614dgd3011d152b35" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3601e847-5f58-45dc-8e33-40d0afb5b1d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveRad" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 2d8, Radiant, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeRadiant();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h555d4a80g10a4g6996gb129g0705e477a7da" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99ddf86c-9dc5-46f1-b8f9-3bb2e9e296db" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveRad11" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 3d8, Radiant, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeRadiant();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfaa13878gf3dbg794fg4038gd57335243dd9" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c6cf18d-d828-48cf-9ebd-fb2d9fa8354f" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveThunder" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 2d8, Thunder, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeThunder();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2ddacd60g57e1g64b0g4705g62e1f9883d59" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7565f4ba-7482-4468-958b-f85170027f8a" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveThunder11" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 3d8, Thunder, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeThunder();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hda28d556g3bb8gc3e0g9ab5g1583c0132842" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="887356b0-0953-4da6-ac26-f5293b2ea0b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveSlash" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 2d8, Slashing, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeSlashing();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h026e48dbg2064g7f77gbd81g443caf9bbf70" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8547731d-5b27-42b7-8285-a3ddc22e73a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveSlash11" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 3d8, Slashing, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeSlashing();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0385b8fcg9221gee2cgea2age53c2326b8ea" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b119bc3e-c41d-4e80-a540-b15ec2f0f0a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassivePierce" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 2d8, Piercing, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypePiercing();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb40b5f84g9d76g7c07ga4c0gfd0a08dcc944" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77a25e92-8cea-4b6e-a3c2-884a88487891" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassivePierce11" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 3d8, Piercing, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypePiercing();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h94828604ge0d6g2ea0ga213g1f990fb6fbf2" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3693816a-1179-459e-8385-bd8282cf19d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveBlud" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 2d8, Bludgeoning, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeBludgeoning();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h35c7f4c6g13f9g1340g4272gd620b9689ae2" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3d500b59-0b3f-4057-a644-19f0e8b7ff99" />
+        <field name="Name" type="NameTableFieldDefinition" value="KojastriPassiveBlud11" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, 2d8, Bludgeoning, Magical);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeBludgeoning();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="kojastri" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h020be065g3570g6e1bg5d44g0b6bd303179e" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5830e5d3-a017-492a-af63-ca4170782236" />
+        <field name="Name" type="NameTableFieldDefinition" value="CalibanPassive" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and not IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8, Radiant);ApplyStatus(INTERRUPT_SMITE_DIVINE_VFX,100,0);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf140e7cg0c30geb40gdb9ag9a7fe49d0fd0" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a1e6f33d-720a-4ee9-a465-f4038c7e0690" />
+        <field name="Name" type="NameTableFieldDefinition" value="CalibanPassive11" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and not IsMiss();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d6, Radiant);ApplyStatus(INTERRUPT_SMITE_DIVINE_VFX,100,0);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heda8f826ga060ga65fg9b48gd10b2ea05917" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b80c1f7b-23f4-43fd-9892-d5eecedcf2d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="BraggusWeightMedium" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="not SizeEqualOrGreater(Size.Huge, context.Source)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeightCategory(+1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb16b47e3ge233gc9deg30b8ga2ef10d19197" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a4ac992-a6b2-44ce-8cd3-1b94db71a329" />
+        <field name="Name" type="NameTableFieldDefinition" value="BraggusWeightLarge" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he45aa40dgfe95gd3c3gfc21g7e9926445664" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="SizeEqualOrGreater(Size.Huge, context.Source)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Weight(100)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a76dea8f-e2e2-4f38-96dc-f0763122798a" />
+        <field name="Name" type="NameTableFieldDefinition" value="OchyghollPassive" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(10, Psychic);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9b764a61g007cg0265g6dbbgbf4c47f29399" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e087a01-c788-4c02-8854-66f7260cddcd" />
+        <field name="Name" type="NameTableFieldDefinition" value="OchyghollPassive2" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsSavingThrow();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(10, Psychic);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcd271737g7eafge208g34d9gaf45ebcc94ae" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="162e2d9a-5462-4902-9cb9-715cb79928a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeccexPassive" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeSlashing() or IsDamageTypePiercing();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(SELF,2)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h40e90410gae83gaa1cg12a2gb94590f17d37" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb864b05-627a-4f95-b5dd-d54b7425fa13" />
+        <field name="Name" type="NameTableFieldDefinition" value="RuneSmithSpells" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_InvokeRune);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d50c066-752d-4fe5-a95b-107584d24662" />
+        <field name="Name" type="NameTableFieldDefinition" value="EtchPassive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha4d722cage579g9f6fg1fddg466f724d3a8e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcd756f91g6627g9ab9gfdf4gff9b8593ab66" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="etchrune" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e150bf74-6892-48a7-bac8-120d2e93c11e" />
+        <field name="Name" type="NameTableFieldDefinition" value="VorakInvokePassive" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(IsRangedAttack(),ModifyTargetRadius(Multiplicative,2));" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

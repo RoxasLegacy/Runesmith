@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="239de60a-29b5-4010-bf7d-f6169d4ddd8a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="899243df-f86e-494e-897c-d99460b672c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="RunesmithSmock" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="17fbd33d-6377-4ec4-b642-5c6e9b063366" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="13" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="HalfPlate" enumeration_type_name="ArmorType" version="1" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Armor Class Ability" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="MediumArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="07781b42-be81-40a7-8f25-58871ce26cd3" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a57433fc-8be8-4efb-ac6b-a625b3bdcd18" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,2);Skill(History,2);Skill(Nature,2);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RunesmithShield;SmithyElement;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e859984a-5493-408c-8bd0-00eb88976c3c" />
+        <field name="Name" type="NameTableFieldDefinition" value="RunesmithGlove" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="36ea3296-fa19-4022-a056-d9f02a70cc78" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="14b0ef0a-dcdc-4e18-8b48-48879dec6bd8" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f46eb019-edd0-4216-99df-9dae89a83ce7" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Strength);RollBonus(SavingThrow, 1, Dexterity)" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RuneMelee;SmithyInspo;" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="HalfPlate" enumeration_type_name="ArmorType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e521117e-c770-4c1b-a040-aab970493831" />
+        <field name="Name" type="NameTableFieldDefinition" value="RunesmithBoots" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="07c3ef37-899d-4ade-9481-7939da51e579" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="HalfPlate" enumeration_type_name="ArmorType" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b9a47ba4-d52f-404a-8fe9-a5b7b776a4c0" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f46eb019-edd0-4216-99df-9dae89a83ce7" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="RuneSpeed;RuneInit;" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

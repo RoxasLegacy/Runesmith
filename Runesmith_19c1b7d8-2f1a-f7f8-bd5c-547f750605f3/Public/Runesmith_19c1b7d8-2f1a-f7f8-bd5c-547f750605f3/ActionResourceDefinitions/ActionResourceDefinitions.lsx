@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h1dd1471egacb7g8bf4g37bag7e08cb0df5ec" version="3"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf9dbf24cga6b2g8760gec2bg4a35c6a01400" version="1"/>
+                    <attribute id="Error" type="TranslatedString" handle="ha024f69bg4c59g7318ga314g519b09ff37aa" version="1"/>
+                    <attribute id="IsSpellResource" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="5"/>
+                    <attribute id="Name" type="FixedString" value="RunicEngrave"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="c7fab8be-e72b-4567-a7bd-f06178c0454a"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="true"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h4e115d17gdb87gcc91g7832g6a344a70e968" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h654b301cgea3dg8764g2e95g9578e1805b4c" version="1"/>
+                    <attribute id="Error" type="TranslatedString" handle="h606a4956gf89cg5402gecd7g81b3f8475f5d" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="RuneEtch"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="f4690c94-9a3d-4198-a417-b07b79021076"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

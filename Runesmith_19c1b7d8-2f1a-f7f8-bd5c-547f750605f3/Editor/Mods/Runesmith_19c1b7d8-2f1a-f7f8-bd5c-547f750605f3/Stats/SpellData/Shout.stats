@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="9fd4ac7a-fad7-424f-83df-0893eae93c38">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="19136791-d17e-44f0-ba20-5ba2b96b255a" />
+        <field name="Name" type="NameTableFieldDefinition" value="SmithyInspoCont" />
+        <field name="Icon" type="StringTableFieldDefinition" value="RunicEngrave" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3eaef8ddgdbabg55c1g97fbgb6a696ab36e5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h24335d41g976cg2c77g0241gcc8c6778612f" version="1" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_ArcaneRecovery" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03114753-8d91-4c52-8207-728a67cdd59b,,;,,;51c06d74-c048-452a-a248-41a751728e3e,,;e9731a5c-e4ba-4872-8950-36d625061ec3,,;8fcb1f19-a84b-486d-81fa-098aaf7cc9be,,;,,;c5bd6ce6-281c-4314-9f74-9f7bb2f4cf03,,;,,;,," />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_SmithyInspo_1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_ArcaneRecovery" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="af787096-8656-4495-a6ce-cbd376578069" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b7fb4cd6-971f-44c0-9447-378092d36b63" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="355f5958-a2e9-4841-8162-ef52a2df318e" />
+        <field name="Name" type="NameTableFieldDefinition" value="SmithyInspo_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19136791-d17e-44f0-ba20-5ba2b96b255a" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_SmithyInspoCont" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RestoreResource(RunicEngrave,1,1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h14c5e4dag614eg624bg2146g81bb1c907401" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ee2bb44g5366g2943g59d0gc1156b3144c7" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="271665f4-5c3c-4bb4-933d-8a7daf8268b5" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b88e4a1e-4eef-470c-8d12-6db53c48a1e8" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10816edd-2811-4139-aca6-8ba37fa889f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="SmithyInspo_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="355f5958-a2e9-4841-8162-ef52a2df318e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RestoreResource(RunicEngrave,1,2);" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_SmithyInspo_1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbd932e6fga47fg5145gebaagb9663e2b8032" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="aacf8a2d-1ef8-435d-b467-18a106c4442c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1cacdf94-4499-47ad-b40d-6353e4e197a8" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d42cbb55-0097-4f97-a21e-1ff18f94329f" />
+        <field name="Name" type="NameTableFieldDefinition" value="SmithyInspo_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="355f5958-a2e9-4841-8162-ef52a2df318e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RestoreResource(RunicEngrave,1,3);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hae98c899g6f45gf4e9g66ebg29fc55e180b5" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_SmithyInspo_1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="3" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="aacf8a2d-1ef8-435d-b467-18a106c4442c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1cacdf94-4499-47ad-b40d-6353e4e197a8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="43c35a3a-9a8a-40c9-989d-3f2373d3b598" />
+        <field name="Name" type="NameTableFieldDefinition" value="SmithyInspo_9" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="355f5958-a2e9-4841-8162-ef52a2df318e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RestoreResource(RunicEngrave,1,3);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd08de6f5g450eg9eddg2a35gcffbb5847ebe" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_SmithyInspo_1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="3" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="aacf8a2d-1ef8-435d-b467-18a106c4442c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1cacdf94-4499-47ad-b40d-6353e4e197a8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="22436c05-cf14-4b66-8dad-b07e8056d91f" />
+        <field name="Name" type="NameTableFieldDefinition" value="SmithyInspo_11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="355f5958-a2e9-4841-8162-ef52a2df318e" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RestoreResource(RunicEngrave,1,3);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf2c253e9gef0bgfa92gaaa5gb4ab7718a9ca" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_SmithyInspo_1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="aacf8a2d-1ef8-435d-b467-18a106c4442c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1cacdf94-4499-47ad-b40d-6353e4e197a8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0404f073-c78c-4f63-afde-fec1ff421bd2" />
+        <field name="Name" type="NameTableFieldDefinition" value="EndAlvaldi" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(ALVALDI);RemoveStatus(ALVALDI11);ApplyStatus(ALVALDIEND,100,2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_EndRage" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h445b0925g3c11g3903ge1d8gd88b7a23dfa9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf1e3ab68g0518g6195ge74dg1621292ba77e" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="22ddf59a-5e0a-41c1-840c-ae9ba5704e63,,;,,;60b207c9-6751-4144-a766-5173ddee5ec7,,;fced40ee-7eaa-4054-9354-8c1ea7fbb0eb,,;93317549-2754-4931-98ce-1d67f899318f,,;,,;9406f0da-ac4e-4d4a-b98f-798102dd300e,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Peaceful" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d997104a-8f85-431d-a089-bc0a452bd4b9" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Rage_End" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="310e3db7-e1df-4741-b1f6-cf1cf13ce5b3" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Big" enumeration_type_name="SpellSoundMagnitude" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

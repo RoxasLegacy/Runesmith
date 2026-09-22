@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3f5063e7-e02b-4849-a503-9ba01dc6e2e6">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="293f2916-03f7-4612-95e7-0b1799d8bf84" />
+        <field name="Name" type="NameTableFieldDefinition" value="Runes" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AtrylRuneCont;Target_BaruielRuneCont;Target_CamonicaRuneCont;Target_EsvadirRuneCont;Target_LyskelRuneCont;Target_RanshuRuneCont;Target_DanteRuneCont;Target_KheldrickRuneCont;Target_VorakRuneCont;Target_ZohkRuneCont;Target_ThullaxRuneCont;Target_SkorulRuneCont;Target_PluunaRuneCont;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e1e5ade-e083-4543-851c-4f152e311c52" />
+        <field name="Name" type="NameTableFieldDefinition" value="RunesmithSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9cc8ef51-bc3d-49ef-9034-45242bcf52c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Runes I" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_YudiciRuneCont;Target_MarssylRuneCont;Target_XandraRuneCont;Target_RapaxRuneCont;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3548b6dd-f0a2-48e7-a52c-b2008b3f2854" />
+        <field name="Name" type="NameTableFieldDefinition" value="Runes II" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_CruonignRuneCont;Target_FeikrisRuneCont;Target_GermantriaRuneCont;Target_IchelsuRuneCont;Target_JurrozRuneCont;Target_PiteregrinTrace;Target_TrolistriRuneCont;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6754b4f-00b7-443a-b477-d6b9209b792e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Runes III" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_UlgatusRuneCont;Target_AiuenRuneCont;Target_KojastriRuneCont;Target_CalibanRuneCont;Target_KaliyaRuneCont;Target_AlvaldiRuneCont;Target_BraggusRuneCont;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a139aba-1b72-4b2f-8686-3626261e4011" />
+        <field name="Name" type="NameTableFieldDefinition" value="Runes IV" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_OchyghollRuneCont;Target_RovanRuneCont;Target_XinsalaRuneCont;Target_TarynRuneCont;Target_DeccexRuneCont;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="098654f2-c6ac-489d-b548-a89c7d7ea24c" />
+        <field name="Name" type="NameTableFieldDefinition" value="AllRunes1" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AtrylRuneCont;Target_BaruielRuneCont;Target_CamonicaRuneCont;Target_EsvadirRuneCont;Target_LyskelRuneCont;Target_RanshuRuneCont;Target_DanteRuneCont;Target_KheldrickRuneCont;Target_VorakRuneCont;Target_ZohkRuneCont;Target_ThullaxRuneCont;Target_SkorulRuneCont;Target_PluunaRuneCont;Target_YudiciRuneCont;Target_MarssylRuneCont;Target_XandraRuneCont;Target_RapaxRuneCont;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5c340b5-a1c9-446a-b8eb-505242d32aa3" />
+        <field name="Name" type="NameTableFieldDefinition" value="AllRunes2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AtrylRuneCont;Target_BaruielRuneCont;Target_CamonicaRuneCont;Target_EsvadirRuneCont;Target_LyskelRuneCont;Target_RanshuRuneCont;Target_DanteRuneCont;Target_KheldrickRuneCont;Target_VorakRuneCont;Target_ZohkRuneCont;Target_ThullaxRuneCont;Target_SkorulRuneCont;Target_PluunaRuneCont;Target_YudiciRuneCont;Target_MarssylRuneCont;Target_XandraRuneCont;Target_RapaxRuneCont;Target_CruonignRuneCont;Target_FeikrisRuneCont;Target_GermantriaRuneCont;Target_IchelsuRuneCont;Target_JurrozRuneCont;Target_PiteregrinTrace;Target_TrolistriRuneCont;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="00ef93bb-9437-41ab-a0c4-5d857b70b367" />
+        <field name="Name" type="NameTableFieldDefinition" value="AllRunes3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AtrylRuneCont;Target_BaruielRuneCont;Target_CamonicaRuneCont;Target_EsvadirRuneCont;Target_LyskelRuneCont;Target_RanshuRuneCont;Target_DanteRuneCont;Target_KheldrickRuneCont;Target_VorakRuneCont;Target_ZohkRuneCont;Target_ThullaxRuneCont;Target_SkorulRuneCont;Target_PluunaRuneCont;Target_YudiciRuneCont;Target_MarssylRuneCont;Target_XandraRuneCont;Target_RapaxRuneCont;Target_CruonignRuneCont;Target_FeikrisRuneCont;Target_GermantriaRuneCont;Target_IchelsuRuneCont;Target_JurrozRuneCont;Target_PiteregrinTrace;Target_TrolistriRuneCont;Target_UlgatusRuneCont;Target_AiuenRuneCont;Target_KojastriRuneCont;Target_CalibanRuneCont;Target_KaliyaRuneCont;Target_AlvaldiRuneCont;Target_BraggusRuneCont;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f66496ec-d6d6-4796-bbe9-1cb69ee6b582" />
+        <field name="Name" type="NameTableFieldDefinition" value="AllRunes4" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AtrylRuneCont;Target_BaruielRuneCont;Target_CamonicaRuneCont;Target_EsvadirRuneCont;Target_LyskelRuneCont;Target_RanshuRuneCont;Target_DanteRuneCont;Target_KheldrickRuneCont;Target_VorakRuneCont;Target_ZohkRuneCont;Target_ThullaxRuneCont;Target_SkorulRuneCont;Target_PluunaRuneCont;Target_YudiciRuneCont;Target_MarssylRuneCont;Target_XandraRuneCont;Target_RapaxRuneCont;Target_CruonignRuneCont;Target_FeikrisRuneCont;Target_GermantriaRuneCont;Target_IchelsuRuneCont;Target_JurrozRuneCont;Target_PiteregrinTrace;Target_TrolistriRuneCont;Target_UlgatusRuneCont;Target_AiuenRuneCont;Target_KojastriRuneCont;Target_CalibanRuneCont;Target_KaliyaRuneCont;Target_AlvaldiRuneCont;Target_BraggusRuneCont;Target_OchyghollRuneCont;Target_RovanRuneCont;Target_XinsalaRuneCont;Target_TarynRuneCont;Target_DeccexRuneCont;" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

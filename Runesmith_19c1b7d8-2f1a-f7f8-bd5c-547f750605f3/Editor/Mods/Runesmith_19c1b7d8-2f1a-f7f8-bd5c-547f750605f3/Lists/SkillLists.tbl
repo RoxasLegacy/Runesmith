@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="7b3e5d55-79e7-4c79-a045-65832047778a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e3f263a-ce91-4f72-bee7-24dd1f6de526" />
+        <field name="Name" type="NameTableFieldDefinition" value="RunesmithSkill" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Arcana, Nature, Religion, Insight, Deception, History" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

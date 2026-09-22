@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="TooltipUpcastDescriptions">
+        <node id="root">
+            <children>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Enhance Rune"/>
+                    <attribute id="Text" type="TranslatedString" handle="hcd224355gb4cdg8556g745eg72a304d01ee1" version="1"/>
+                    <attribute id="UUID" type="guid" value="a66c471d-b69b-4cae-a461-cb692fb52267"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

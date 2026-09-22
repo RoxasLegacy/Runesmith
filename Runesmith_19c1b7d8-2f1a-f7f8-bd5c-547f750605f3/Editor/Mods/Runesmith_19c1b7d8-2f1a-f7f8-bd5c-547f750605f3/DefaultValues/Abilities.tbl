@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="f01245cf-d242-4f5b-af85-f795d310ac2c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="77c1fc93-4607-4a0a-a9d5-3147bc1e995a" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Intelligence;Strength" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="AbilityBonus" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

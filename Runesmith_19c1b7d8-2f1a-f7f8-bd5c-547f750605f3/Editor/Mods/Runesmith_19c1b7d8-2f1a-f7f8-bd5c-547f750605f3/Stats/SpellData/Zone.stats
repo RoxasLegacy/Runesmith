@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="4fcdf163-88be-40b5-bf02-680ac5d776d9">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47fe4480-dd4b-40b6-91f2-6b4d1e55031f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeccexGrowl" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution,SourceSpellDC(),AdvantageOnOrinFear())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8+4, Piercing,Magical);ApplyStatus(BLEEDING,100,2);ApplyStatus(FEARED,100,2)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(3d8+4, Piercing,Magical)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_Slayer_DeathGrowl" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h49a95be9gd1f3g54d6g922bgabae56d21f83" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h46f71cb5g239fgd0dag6990g854ad2903b46" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+4, Piercing)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BLEEDING,100,2);ApplyStatus(FEARED,100,2)" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="Shape" type="StringTableFieldDefinition" value="Cone" />
+        <field name="FrontOffset" type="IntegerTableFieldDefinition" value="-2" />
+        <field name="Range" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Angle" type="IntegerTableFieldDefinition" value="60" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="50e7cd15-5b95-47e9-b6f8-ed7900d23d9d,,;,,;289b4f53-3ca5-4dff-a1d4-e84a84a283f0,,;772a34bf-06c1-43ee-ae7b-1a1ffd3fef9e,,;03239618-40c7-47ab-a7b4-d2e0b111e5f7,,;,,;bc09e561-370b-4307-88d7-6462b6fbabec,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsHarmful;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
+        <field name="RechargeValues" type="StringTableFieldDefinition" value="5-6" />
+        <field name="SurfaceType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="Surface Type" version="1" />
+        <field name="SurfaceLifetime" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SurfaceGrowStep" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SurfaceGrowInterval" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="09b965b7-0c92-440d-89a3-86f0442a2042" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1f96b6f5-a954-4be0-93a5-991f20ae6411" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="CrSpell_Prepare_Slayer_BloodBath" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="CrSpell_Loop_Slayer_BloodBath" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Crspell_Cast_Slayer_DeathGrowl" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Crspell_Impact_Slayer_DeathGrowl" />
+        <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

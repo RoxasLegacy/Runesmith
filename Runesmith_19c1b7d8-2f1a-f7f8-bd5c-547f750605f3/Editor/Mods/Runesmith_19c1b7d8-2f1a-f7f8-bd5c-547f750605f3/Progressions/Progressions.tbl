@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="53912403-fe14-4ce0-89aa-96acb1dee21a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e91b4861-18c6-4bae-8485-aad16f8ac401" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(5e3f263a-ce91-4f72-bee7-24dd1f6de526,3);SelectAbilityBonus(957b0bc3-72f7-4905-bcf3-f5df3273f0b5,AbilityBonus,2,1);SelectSpells(293f2916-03f7-4612-95e7-0b1799d8bf84,6,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(RunicEngrave,99,1);ActionResource(RuneEtch,2,0);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Rune1Rep;EtchPassive;RuneSmithSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="98f05bbe-1553-4c2e-8f28-4d5f649a3b1a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(RunicEngrave,99,1);ActionResource(RuneEtch,2,0);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(293f2916-03f7-4612-95e7-0b1799d8bf84,0,6);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Rune1Rep;EtchPassive;RuneSmithSpells;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1e63d83c-8e54-475a-9339-d91490046dc6" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(293f2916-03f7-4612-95e7-0b1799d8bf84,0,6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c8304968-97d4-4c70-8e8d-0033e7b25fc6" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Constitution);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ForgedEndurance;" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(293f2916-03f7-4612-95e7-0b1799d8bf84,0,6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="11a2a653-4ff3-46bf-a0e5-976f31fa764a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RunicEngrave,2,2);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RuneReplenish;EngravePassive;RepertoireUpgrade1;SmithyInspo4;" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(9cc8ef51-bc3d-49ef-9034-45242bcf52c3,2,0);SelectSpells(098654f2-c6ac-489d-b548-a89c7d7ea24c,0,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8b2c78f6-ca2a-4060-aa78-6fe874b2006b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RunicEngrave,1,2);ActionResource(RuneEtch,1,0);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="EtchUpgrade1;RunicOpt1;" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(098654f2-c6ac-489d-b548-a89c7d7ea24c,0,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8f5adda0-3369-4710-88b5-57334aaa9f71" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(098654f2-c6ac-489d-b548-a89c7d7ea24c,0,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b747fdaf-0268-4393-9e1d-fc484938a98f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RunicEngrave,2,3);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Engrave2;RepertoireUpgrade2;SmithyInspo7;" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(3548b6dd-f0a2-48e7-a52c-b2008b3f2854,2,0);SelectSpells(c5c340b5-a1c9-446a-b8eb-505242d32aa3,0,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5da41951-ebcc-45cc-9622-52ad0afee8fd" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RunicEngrave,1,2);ActionResource(RunicEngrave,1,3);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(c5c340b5-a1c9-446a-b8eb-505242d32aa3,0,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a43d6cf4-adfb-49c3-bcd4-23c7b8e50330" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RunicEngrave,2,4);ActionResource(RunicEngrave,1,2);ActionResource(RunicEngrave,1,3);ActionResource(RuneEtch,1,0);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Engrave3;EtchUpgrade1;RunicOpt2;RepertoireUpgrade3;SmithyInspo9;" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="RunicOpt1;" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(e6754b4f-00b7-443a-b477-d6b9209b792e,2,0);SelectSpells(00ef93bb-9437-41ab-a0c4-5d857b70b367,0,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="803bdf22-700a-4351-8db7-db2f49f350be" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(00ef93bb-9437-41ab-a0c4-5d857b70b367,0,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_11" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c22dfcbb-84bf-4b5c-9916-bee4d6f3992b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RunicEngrave,2,5);ActionResource(RunicEngrave,1,4)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Engrave4;RepertoireUpgrade4;SmithyInspo11;" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(2a139aba-1b72-4b2f-8686-3626261e4011,2,0);SelectSpells(f66496ec-d6d6-4796-bbe9-1cb69ee6b582,0,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_12" />
+        <field name="UUID" type="IdTableFieldDefinition" value="019b2959-ba81-47ba-8023-5232784a91b8" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RunicEngrave,1,5);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnboundInvoke;" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f66496ec-d6d6-4796-bbe9-1cb69ee6b582,0,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
+        <field name="UUID" type="IdTableFieldDefinition" value="48f4cd29-a8f1-4061-91a3-8cca4b000f16" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="13" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_14" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ebec0369-149c-4c89-9d03-b72adf3b19fb" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="14" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RepertoireUpgrade5;" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f66496ec-d6d6-4796-bbe9-1cb69ee6b582,2,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_15" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9465a5e3-993f-4fe9-9e53-dc114bd5050f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="15" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_16" />
+        <field name="UUID" type="IdTableFieldDefinition" value="718a2bf1-dd5b-4c9e-bfc7-df1ab7bac5a5" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="16" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RuneEtch,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_17" />
+        <field name="UUID" type="IdTableFieldDefinition" value="79b6201e-41c4-4410-b7fc-180e85a941c6" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="17" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_18" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a29e53af-e40e-4fb1-b6a9-c5ff96761896" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="18" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="RepertoireUpgrade;" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(f66496ec-d6d6-4796-bbe9-1cb69ee6b582,2,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_19" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a5a18e3e-e453-4ee9-b5b4-b070beb7190f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="19" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_20" />
+        <field name="UUID" type="IdTableFieldDefinition" value="29d174b3-3295-4073-81cb-3a31b485cd7d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="20" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RuneEtch,1,0);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

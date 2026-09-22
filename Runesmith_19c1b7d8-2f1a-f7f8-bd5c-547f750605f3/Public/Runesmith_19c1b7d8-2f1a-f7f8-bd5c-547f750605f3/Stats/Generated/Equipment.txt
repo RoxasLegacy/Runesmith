@@ -1,0 +1,15 @@
+new equipment "EQP_PFRNE"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "RunesmithSmock"
+add equipmentgroup
+add equipment entry "RunesmithGlove"
+add equipmentgroup
+add equipment entry "RunesmithBoots"
+add equipmentgroup
+add equipment entry "WPN_Maul"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+

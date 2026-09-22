@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="SkillLists">
+        <node id="root">
+            <children>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="RunesmithSkill"/>
+                    <attribute id="Skills" type="LSString" value="Arcana, Nature, Religion, Insight, Deception, History"/>
+                    <attribute id="UUID" type="guid" value="5e3f263a-ce91-4f72-bee7-24dd1f6de526"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

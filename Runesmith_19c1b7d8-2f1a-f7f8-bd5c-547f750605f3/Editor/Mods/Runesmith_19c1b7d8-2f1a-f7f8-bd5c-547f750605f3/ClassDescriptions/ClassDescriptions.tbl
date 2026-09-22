@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a86b6e82-0a7f-47cb-bff1-a0a6d161fa30">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f26c99bc-9b4b-4a6c-b982-864db7d41745" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="PF_Runesmith" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8cc9616fga94fgff2eg904dg78a18b6da68b" version="1" />
+        <field name="ShortName" type="TranslatedStringTableFieldDefinition" handle="hd42fe38ag45f3gf48fg9c29g50fc91799eaf" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="a73b1952-b8e4-496e-ae19-e3c844352101" />
+        <field name="HasGod" type="BoolTableFieldDefinition" value="False" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="False" />
+        <field name="CanLearnSpells" type="BoolTableFieldDefinition" value="False" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c;1ae7017c-4884-4a43-bc4a-742fa0d201c0" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="BaseHp" type="IntegerTableFieldDefinition" value="10" />
+        <field name="HpPerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="CommonHotbarColumns" type="IntegerTableFieldDefinition" value="9" />
+        <field name="ClassHotbarColumns" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ItemsHotbarColumns" type="IntegerTableFieldDefinition" value="2" />
+        <field name="ClassEquipment" type="FixedStringTableFieldDefinition" value="EQP_PFRNE" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

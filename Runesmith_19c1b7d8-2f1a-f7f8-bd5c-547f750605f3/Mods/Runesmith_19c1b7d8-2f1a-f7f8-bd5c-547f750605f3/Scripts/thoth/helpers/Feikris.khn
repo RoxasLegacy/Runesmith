@@ -1,0 +1,3 @@
+function CanThrowFeikris()
+    return ConditionResult(context.Source.Strength * context.Source.Strength * 0.4 >= (GetLiftingWeight(context.Target, not IsInInventory(context.Target)) / 1000),{ConditionError("CanThrowWeight_False")})
+end

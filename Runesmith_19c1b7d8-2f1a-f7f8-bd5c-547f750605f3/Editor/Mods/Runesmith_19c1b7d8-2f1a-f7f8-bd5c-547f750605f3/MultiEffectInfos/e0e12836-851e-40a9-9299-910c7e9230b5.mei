@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="e0e12836-851e-40a9-9299-910c7e9230b5" OwnerUUID="00000000-0000-0000-0000-000000000000" Name="Trolistri_StatusEffect">
+  <EffectInfo UUID="4a035a9c-c45b-4c5e-b761-c3ce5e56387c" EffectResourceGuid="3fc9ffb3-8c75-73de-d6be-053d490d1548" DetachSource="false" DetachTarget="false" KeepRotation="true" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="true" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="05f87e82-499d-4e0b-8dd7-859b8b3e5beb">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b726d5f7-1190-43b5-9762-7507879afaf0" />
+        <field name="Name" type="NameTableFieldDefinition" value="KALIYAVENOM" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bfab9815-2261-4720-8da4-8b98dc6b3a22" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h883887c2g4864gf885gbff5gb24320d48e56" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1b7a9f02gb94agc0e0gbb96ga321597e7f88" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KALIYAVENOM" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Constitution, 13, AdvantageOnPoisoned())" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);CriticalHit(AttackTarget,Success,Always,3);CriticalHit(AttackTarget,Failure,Never,3);Advantage(AttackTarget);ActionResourceBlock(Movement);DetectDisturbancesBlock(true);Disadvantage(AttackRoll);Disadvantage(AllAbilities)" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="8fd2b8b9-1754-463c-82fe-d89987644eb1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="92ac77c4-a54a-4f4e-a8c0-650fe9f36207" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Incapacitated;SG_Condition;SG_Paralyzed;SG_Poisoned" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df9f7a1b-7d8c-4a6a-b5b3-95253045a15a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROVANSEAL" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75dcdab3g5f3aga73eg5729ga9a0d67399fb" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf02510b7gd915g5239gbcdbg5d0a72b5e5b0" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Petrified" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Earth" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="MaterialType" type="EnumerationTableFieldDefinition" value="FadingOverlay" enumeration_type_name="MaterialType" version="1" />
+        <field name="MaterialApplyBody" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="MaterialApplyArmor" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="MaterialApplyWeapon" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="MaterialApplyNormalMap" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="MaterialFadeAmount" type="IntegerTableFieldDefinition" value="3000" />
+        <field name="MaterialParameters" type="StringTableFieldDefinition" value="CharacterHeight:Height" />
+        <field name="FreezeTime" type="IntegerTableFieldDefinition" value="1500" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Misc_Status_Petrified_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Misc_Status_Petrified_MO" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Incapacitated;SG_Condition;SG_Petrified" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Piercing,Resistant);Resistance(Bludgeoning,Resistant);Resistance(Slashing,Resistant);Resistance(Acid,Resistant);Resistance(Cold,Resistant);Resistance(Fire,Resistant);Resistance(Force,Resistant);Resistance(Lightning,Resistant);Resistance(Necrotic,Resistant);Resistance(Poison,Resistant);Resistance(Psychic,Resistant);Resistance(Radiant,Resistant);Resistance(Thunder,Resistant);Attribute(Grounded);StatusImmunity(SG_Poisoned);Advantage(AttackTarget);AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);DetectDisturbancesBlock(true);Tag(BLOCK_PICKPOCKET);Tag(DOWNED_DISABLED);StatusImmunity(DISARM);DialogueBlock()" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="BreakConcentration()" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="164bf782-7f60-4b65-91b1-a31c152c05c3" />
+        <field name="StatusSoundState" type="FixedStringTableFieldDefinition" value="dd94cbd2-99a4-4a03-9fa7-caa7886552d1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Downed" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Petrified" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="AnimationLoop" type="ShortNameTableFieldDefinition" value="5f127742-79d4-4590-839f-6eb5ae45930d" />
+        <field name="AnimationEnd" type="ShortNameTableFieldDefinition" value="5f127742-79d4-4590-839f-6eb5ae45930d" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Death)):SwitchDeathType(Disintegrate)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e930b260-2f8f-4478-98b8-3c66095b638b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ETCHING" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0a7bf64eg5206g6493g28a6g2f47c5acd62f" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h12266730g2526g9ab0gfa9eg34a62bcf4f7d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Stunned" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="Air" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="MaterialType" type="EnumerationTableFieldDefinition" value="Overlay" enumeration_type_name="MaterialType" version="1" />
+        <field name="MaterialApplyBody" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="MaterialApplyArmor" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="MaterialApplyWeapon" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="MaterialApplyNormalMap" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="AnimationStart" type="ShortNameTableFieldDefinition" value="b554aad5-6f39-4406-b248-e82084d01b1f" />
+        <field name="AnimationLoop" type="ShortNameTableFieldDefinition" value="0ac9793f-040b-4145-9428-4ef26c961759" />
+        <field name="AnimationEnd" type="ShortNameTableFieldDefinition" value="1f3a444e-1012-48ba-8d67-2717082e6470" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="OverheadOnTurn" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Stunned;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="8072d95e-78cc-4826-b1b4-24ed3be294ff" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Misc_Status_MindCrush_Start" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Misc_Status_MindCrush_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Misc_Status_MindCrush_End" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

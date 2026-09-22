@@ -1,0 +1,9 @@
+treasure itemtypes "Common","Uncommon","Rare","Epic","Legendary","Divine","Unique"
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "1,1"
+object category "I_RunesmithSmock",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_RunesmithGlove",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_RunesmithBoots",1,0,0,0,0,0,0,0
